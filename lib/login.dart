@@ -59,7 +59,7 @@ class _SignInPageState extends State<SignInPage> {
               Row(
                 children: <Widget>[
                   Flexible(
-                    flex: 90,
+                    flex: 85,
                     child: TextFormField(
                       obscureText: _obscureText,
                       decoration: const InputDecoration(
@@ -73,7 +73,7 @@ class _SignInPageState extends State<SignInPage> {
                     ),
                   ),
                   Flexible(
-                    flex: 10,
+                    flex: 15,
                     child: FlatButton(
                         onPressed: _toggle,
                         child: _obscureText
