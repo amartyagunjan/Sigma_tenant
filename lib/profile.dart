@@ -79,10 +79,10 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         SizedBox(
-                          height: 10,
+                          height: screenHeight*2,
                         ),
                         Text(
-                          "9505164013",
+                          "9505164013",  //It is hard coded here.
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 15,
